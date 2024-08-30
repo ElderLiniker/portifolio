@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Meu Portifolio</title>
+</head>
+
+<body>
+    <div onclick="desaparecer()" class="segunda-mascara"></div>
+
+    <h1 class="logo">Portifo<strong>lio</strong></h1>
+
+    <header>
+        <a href="">Inicio</a>
+        <a onclick=" rolarsobre()" href="#sobre-mim">Sobre mim</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contatos</a>
+    </header>
+
+    <main>
+
+        <div>
+            <h1 class="nome"> Elder <strong>Hora</strong</h1>
+                    <p>Programador Front-End</p>
+        </div>
+
+        <div>
+            <img src="./Design sem nome (2).png" alt="">
+
+
+        </div>
+        <form class="formulario-fale-conosco"    
+        action="https://formcarry.com/s/hEaKmQgPPvB"
+        method="POST"
+        enctype="multipart/form-data">
+
+            <input type="text" placeholder="Seu nome"  name="nome">
+            <input type="tel" placeholder="Seu telefone" name="telefone">
+            <textarea  placeholder="Digite seu problema aqui" name="duvida" ></textarea>
+            <button type="submit" class="pedir-orçamento">PEDIR ORÇAMENTO</button>
+    </form>
+
+    </main>
+
+    <nav>
+
+
+        <div class="caixa1">
+            <img class="img-sobre" src="./WhatsApp Image 2024-07-21 at 21.36.01.jpeg" alt="">
+        </div>
+        <div class="caixa2">
+            <h1 id="sobre-mim"> Sobre mim</h1>
+            <p class="sobre"> Olá! Sou Elder da Hora, um desenvolvedor front-end apaixonado por criar experiências web envolventes e
+                funcionais. Recentemente, dei meus primeiros passos no mundo do desenvolvimento web, e estou empolgado
+                para compartilhar minha jornada e meus projetos com você.
+
+                Minha formação inclui uma série de cursos e projetos práticos que me ajudaram a desenvolver habilidades
+                em HTML, CSS e JavaScript. Estou sempre em busca de aprender novas tecnologias e aprimorar minhas
+                habilidades, como design responsivo, frameworks específicos, etc.].
+
+                Sou uma pessoa dedicada e curiosa, com um forte desejo de resolver problemas e criar soluções que não
+                apenas funcionem bem, mas que também proporcionem uma experiência agradável ao usuário. Gosto de
+                trabalhar em projetos que desafiem minhas habilidades e me permitam explorar novas técnicas e
+                ferramentas.
+                Aqui no meu portfólio, você encontrará alguns dos projetos que construí até agora. Cada um deles
+                representa um passo importante no meu crescimento como desenvolvedor front-end. Estou ansioso para
+                enfrentar novos desafios e continuar aprimorando meu conhecimento no campo.</p>
+
+                <button onclick="mostrarforms()"  class="Contato"> Entre em Contato</button>
+        </div>
+
+
+    </nav>
+    <h1 class="meus-projetos"> Meu projetos</h1>
+
+    <div id="projects" class="projetos">
+
+        <figure>
+            <img src="./assets/encanadores.jpeg" alt="">
+            <figcaption>Projeto que envia um formulário para o email com problema, telefone e nome do cliente. Simples
+                mais é extramamente útil. Sempre usando as tecnologias HTML, CSS E JAVASCRIPT</figcaption>
+        </figure>
+        <figure>
+
+            <img src="./assets/barber.jpeg" alt="">
+            <figcaption>Projeto de uma barbearia onde tem envio de fornulário e adicionei a localização e os links das
+                redes sociais do cliente.Sempre usando as tecnologias HTML, CSS E JAVASCRIPT</figcaption>
+        </figure>
+        <figure>
+
+            <img src="./assets/conversor.jpeg" alt="">
+            <figcaption>Projeto onde converte a moeda brasileira em EURO, DÓLAR, LIBRA e BITCOIN. Sempre usando as
+                tecnologias HTML, CSS E JAVASCRIPT </figcaption>
+        </figure>
+
+        <figure>
+            <img src="./assets/sorteio.jpeg" alt="">
+            <figcaption>Dev sorteio, onde pode sortear qualquer número sendo que o número inicial deve ser menor que o
+                último número. Sempre usando as tecnologias HTML, CSS E JAVASCRIPT</figcaption>
+        </figure>
+
+        <figure>
+            <img src="./assets/Meu linktree - Google Chrome 20_08_2024 21_17_24(1)(1).png" alt="">
+            <figcaption>Projeto bem legal onde tem acesso aos links da suas redes sociais, adicionei com JavaScript um
+                contador de visualizações de link. Sempre usando as tecnologias HTML, CSS E JAVASCRIPT </figcaption>
+        </figure>
+        
+        <figure>
+            <img src="./assets/devclub cadastro de usuários - Google Chrome 28_08_2024 21_02_02.png" alt="">
+            <figcaption>Projeto onde realiza cadastro de usuários, onde vc tem acesso a lista de usuários cadastrados , onde posso excluir os usuários que eu quero. Usando React </figcaption>
+        </figure>
+
+
+    </div>
+    <h3> Contatos</h3>
+    <div id="contact" class="Contatos">
+
+        
+
+        <a href=""><img class="icons" src="https://img.icons8.com/?size=100&id=AltfLkFSP7XN&format=png&color=000000"
+                alt="Whatsaap">WhatsApp</a>
+        <a href=""><img class="icons" src="https://img.icons8.com/?size=100&id=SzgQDfObXUbA&format=png&color=000000"
+                alt="Github">Github</a>
+        <a href=""><img class="icons" src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000"
+                alt="LinkedIn">LinkedIn</a>
+        <a href="https:www.gmail.com" target="_blank"><img class="icons" src="https://img.icons8.com/?size=100&id=X0mEIh0RyDdL&format=png&color=000000"
+                alt="email">horaelder90@gmail.com</a>
+    </div>
+
+
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
