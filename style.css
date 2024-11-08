@@ -285,7 +285,7 @@ button{
     border:  1px solid rebeccapurple;
     margin-top: 20px;
     padding: 15px 20px;
-    position: absolute;
+   
    
     
     
@@ -311,10 +311,10 @@ opacity: 0.7;
 transition: 0.5;}
 
 button:active{
-    color;
+    
 }
 
-@media  ( max-width:900px){
+@media  ( max-width:768px){
     body{
         width: 100vw;
         height: 100vh;
@@ -327,6 +327,13 @@ header{
     text-align: center;
      width: auto;
      position: absolute
+
+}
+
+button{
+height:60px;
+    width: 250px ;
+    padding: 10px 30px;
 
 }
 .services{
@@ -344,11 +351,12 @@ main{
     height: 200px;
 }
 main img{
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     height: auto;
     display: block;
     padding: 10px;
+    margin-left: 25px;
 }
 .img-sobre{display: none;}
 
