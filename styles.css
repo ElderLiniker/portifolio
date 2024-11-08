@@ -314,7 +314,7 @@ button:active{
     
 }
 
-@media  ( max-width:768px){
+@media  ( max-width:1200px){
     body{
         width: 100vw;
         height: 100vh;
